@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    margin : 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/floresta.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height:110vh;
+}
+
+header{
+    list-style-type: none;
+}
+
+.links{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+
+.s{
+    margin-left: 8.5vw;
+}
+
+.cl {
+    margin-left: 8.5vw;
+}
+
+.cl span{
+    color: white;
+}
+
+.ps{
+    margin-left: 8.5vw;
+}
+
+.ps span{
+    color: white;
+}
+
+.links a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.links a:hover{
+    color: #2ecc71;
+    transition: 0.5s;
+}
+
+.links li{
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.links button{
+    margin-top: 47px;
+    color: #2ecc71;
+    background-color: transparent;
+    border: 1px solid #2ecc71;
+    border-radius: 15px;
+    width: 150px;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 7vw;
+}
+
+.links button:hover{
+    color: white;
+    background-color: #2ecc71;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 10vw;
+}
+
+.logo {
+    margin-top: 25px;
+}
+
+.titulo{
+    position: absolute;
+    margin-top: 7vw;
+}
+
+.titulo h1{
+    position: absolute;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.titulo span{
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2ecc71;
+}
+
+.baixo a{
+    color: black;
+}
+
+.textod{
+    position: absolute;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 18vw;
+}
+
+.textom p{
+    position: absolute;
+    color: #2ecc71;
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 18vw;
+}
+
+#secao{
+    text-align: center;
+    font-size: 40px;
+}
+
+#secao{
+    margin: 0;
+}
+
+.sobre{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    border-bottom: 1px rgb(255, 255, 255) solid;
+}
+
+.logoomega{
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    padding-right: 0px;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+
+.logoomega img{
+    width: 200%;
+    height: 120%;
+}
+
+.cardsobre{
+    background-color: rgb(100, 100, 100);
+    height: 60%;
+    width: 76vw;
+    display:block;
+    margin-left: 300px;
+}
+
+.cardprojeto{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 76vw;
+    display:block;
+    margin-left: 13vw;
+}
+
+.sobre{
+    background-color: rgb(100, 100, 100);
+    height: 150vh;
+}
+
+.pesquerda{
+    position: absolute;
+    height: 90vh;
+}
+
+.cardsobre p{
+    font-size: 20px;
+}
+
+.cardprojeto p{
+    font-size: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+.balaoum, .balaodois, .balaotres, .balaoquatro{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 200px;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    width: 45%;
+    height: 45%;
+    float: right;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px rgb(70, 70, 70);
+}
+
+.balaodois:hover, .balaoquatro:hover{
+    height: 45%;
+    width: 46%;
+    transition: 0.7s;
+}
+
+.balaotres:hover, .balaoum:hover{
+    height: 45%;
+    width: 46%;
+    margin-right: 20px;
+    transition: 0.7s;
+}
+
+.titulosobre{
+    font-weight: bold;
+}
+
+.cardsobre div{
+    margin-right: 2.3vw;
+    margin-top: 2vw;
+}
+
+.cardprojeto div{
+    margin-right: 2.3vw;
+    margin-top: 2vw;
+}
+
+.cardprojeto{
+    background-color: rgb(100, 100, 100);
+}
+
+.descriptomega{
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    margin-left: -230px;
+    margin-top: 0;
+}
+
+.descriptomega img{
+    width: 380%;
+    height: 200%;
+}
+
+.titulosuperiorsobre{
+    border-top: 1px rgb(255, 255, 255) solid;
+    font-weight: 700;
+    background-color: rgb(70, 70, 70);
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+#secaoprojeto{
+    text-align: center;
+}
+
+.titulosuperiorprojeto{
+    font-weight: 700;
+    background-color: rgb(70, 70, 70);
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+#secaoprojeto{
+    background-color: rgb(100, 100, 100);
+    margin: 0;
+}
+
+.projeto{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.logopatac{
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 9vh;
+}
+
+.logopatac img{
+    margin-top: -20px;
+    margin-left: -90px;
+    width: 360px;
+    height: 240px;
+}
+
+.logoalt{
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 9vh;
+}
+
+.pbalaoum{
+    background-color: rgb(80, 80, 80);
+    width: 98%;
+    height: 43%;
+    border-radius: 0px;
+    border: solid 1px rgb(70);
+    box-shadow: 0px 0px 2px black;
+    text-align: center;
+    display: flex;
+    color: white;
+}
+
+.pbalaodois{
+    display: flex;
+    background-color: rgb(80, 80, 80);
+    width: 98%;
+    height: 43%;
+    border-radius: 0px;
+    border: solid 1px rgb(70, 70, 70);
+    box-shadow: 0px 0px 2px black;
+    text-align: center;
+    color: white;
+}
+
+.porao{
+    background-color: rgb(9, 39, 0);
+    width: 100%;
+    height: 50vh;
+}
+
+.tituloprojeto{
+    font-weight: 800;
+}
+
+.sobrebaixo{
+    background-color: black;
+    width: 90%;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 500px;
+    position:relative;
+
+}
+
+.scroll-aparecer{
+    width: 100%;
+    float: left;
+    height: 0px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    display: block;
+}
+
+.sobrebaixo{
+    background-color: rgb(80, 80, 80);
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-top: 0px;
+    width: 90%;
+    height: 35vh;
+    float: left;
+    border: solid 5px rgba(0, 0, 0, 0.1);
+}
+
+.sobrebaixo p{
+    margin: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.background span{
+    font-weight: lighter;
+}
+
+.textpatac p{
+    margin-top: 0;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.textpatac h1{
+    font-size: 25px;
+    margin: 0;
+}
+
+.textpatac {
+    margin-top: -30px;
+}
+
+.textalt p{
+    margin-top: 0;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.textalt h1{
+    font-size: 25px;
+    margin: 0;
+}
+
+.textalt {
+    margin-top: -30px;
+}
+
+.textalt span{
+    font-weight: 700;
+}
+
+.logoalt img{
+    width: 500px;
+    height: 250px;
+    margin-left: -145px;
+    margin-top: -25px;
+}
+
+.porao ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.porao ol{
+    display: block;
+    padding: 0;
+}
+
+.porao li{
+    margin-top: 20px;
+}
+
+.porao a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.porao a:hover{
+    text-decoration: underline;
+    color: rgb(179, 245, 225);
+    transition: 1s;
+}
+
+.porao p{
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.porao img{
+    border-radius: 50%;
+    width: 20px;
+    height:20px;
+}
+
+.porao span{
+    font-size: 20px;
+}

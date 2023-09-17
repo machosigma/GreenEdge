@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+textarea:focus, input:focus{
+    box-shadow: none;
+    outline: 0;
+}
+li, ol{
+    list-style-type: none;
+}
+.scroll{
+    overflow-y: scroll;
+    height: 75vh;
+    background-color: aqua;
+    width: 85vw;
+    margin-top: -75vh;
+    margin-left: 15vw;
+}
+
+.lateral{
+    width: 15vw;
+    height: 75vh;
+    background-color: red;
+    margin-right: 0;
+}
+
+/* PARTE DE CIMA --------------------------------------------------------------------*/
+.cima{
+    width: 100%;
+    height: 25vh;
+    background-color: blue;
+}
+.cimainput{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(0, 0,0);
+    display: flex;
+}
+.FVtitle{
+    font-size: 25px;
+    margin-top: 12px;
+    color: white;
+}
+.verde{
+    color:#2ecc71;
+}
+.espaço{
+    color: transparent;
+}
+.pesquisa input{
+    border: none;
+    width: 90%;
+    height: 90%;
+    padding-left: 20px;
+    background-color: transparent;
+    font-size: 15px;
+}
+.pesquisa{
+    margin-left: 30px;
+    border-radius: 40px;
+    display: flex;
+    margin-top: 30px;
+    width: 54vw;
+    height: 40%;
+    background-color: white;
+}
+.pesquisa button{
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    margin-left: -10px;
+}
+.pesquisa button:hover{
+    cursor: pointer;
+    filter: invert(0.5);
+    transition: 0.2s;
+}
+.pesquisa button img{
+    width: 70%;
+    height: 70%;
+}
+.cimainput img{
+    width: 12vw;
+    height: 15vh;
+    margin-top: 5px;
+}
+.cimalinks{
+    width: 100%;
+    height: 28%;
+    background-color: #2ecc71;
+    border-bottom: black solid 10px;
+}
+@keyframes changeColor {
+    0% {
+      color: rgba(255, 255, 255, 0);
+      margin-left: 0;
+    }
+    100% {
+      color: rgba(255, 255, 255, 1);
+      margin-left: 10px;
+    }
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(72deg);
+    }
+}
+.favs:hover .favp{
+    animation: changeColor 1s 1;
+    display: block;
+    width: 100px;
+    color: white;
+    margin-left: 10px;
+}
+.carrinho:hover .carp{
+    animation: changeColor 1s 1;
+    margin-top: 7px;
+    display: block;
+    width: 100px;
+    height: 40px;
+    color: white;
+    margin-left: 10px;
+}
+.entrars:hover .entrarp{
+    animation: changeColor 1s 1;
+    display: block;
+    width: 100px;
+    color: white;
+    margin-left: 10px;
+}
+.carp{
+    display: none;
+    width: 100px;
+    color: rgba(255, 255, 255, 0);
+}
+@keyframes marginMove {
+    0%{
+        padding-right: 10px;
+    }
+    100%{
+        padding-right: 80px;
+    }
+}
+.favs:hover{
+    animation: marginMove 0.6s 1;
+    padding-right: 80px;
+}
+.favs:hover .estrela{
+    animation: spin 3s infinite;
+}
+.carrinho:hover{
+    animation: marginMove 0.6s 1;
+    padding-right: 80px;
+}
+.entrars:hover{
+    animation: marginMove 0.6s 1;
+    padding-right: 80px;
+    border: solid 1px white;
+    border-radius: 25px;
+}
+.favoritos{
+    margin-top: 5px;
+    display: flex;
+}
+.entrar{
+    margin-top: 5px;
+    display: flex;
+}
+.carrinho{
+    margin-top: 5px;
+    display: flex;
+}
+.cimabts{
+    display: flex;
+    padding:0;
+    height: 40%;
+    margin-top: 25px;
+}
+.favp{
+    display: none;
+    width: 100px;
+    margin-top: 7px;
+    color: rgba(255, 255, 255, 0);
+}
+.carrinhop{
+    display: none;
+    width: 100px;
+    margin-top: 7px;
+    color: rgba(255, 255, 255, 0);
+}
+.entrarp{
+    display: none;
+    width: 100px;
+    margin-top: 7px;
+    color: rgba(255, 255, 255, 0);
+}
+.favs{
+    display: flex;
+    background:transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+.cars{
+    display: flex;
+    background:transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+.entrars{
+    display: flex;
+    background:transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin-left: 22px;
+}
+.favs img{
+    margin: 0;
+    width: 50px;
+    height: 40px;
+}
+.carrinho img{
+    margin: 0;
+    width: 50px;
+    height: 40px;
+}
+.entrar img{
+    margin: 0;
+    width: 50px;
+    height: 40px;
+}
+.favoritos a{
+    display: flex;
+}
+.entrar a{
+    display: flex;
+}
+.carrinho a{
+    display: flex;
+}
+.carrinho{
+    width: 60px;
+    height: 40px;
+}
+.entrar{
+    width: 40px;
+    height: 40px;
+}
+/* PARTE DE CIMA --------------------------------------------------------------------*/
+
+/* PARTE LATERAL --------------------------------------------------------------------*/
+summary{
+    list-style-type: '🢖';
+}
+details[open] summary{
+    list-style-type: '🢗';
+}
+.social-media summary:hover{
+    cursor: pointer;
+}
+.contacts summary:hover{
+    cursor: pointer;
+}
+/* PARTE LATERAL --------------------------------------------------------------------*/
